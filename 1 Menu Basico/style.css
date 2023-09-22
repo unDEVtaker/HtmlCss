@@ -1,0 +1,39 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+header{
+    display: flex;
+    background-color: rgb(50, 51, 51);
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height: 50px;
+    margin-right: 12px;
+}
+nav a{
+    font-weight: 600;
+    padding-right:11px ;
+}
+nav a:hover{
+    color: rgb(230, 230, 129);
+}
+@media (max-width: 680px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    }
+}
